@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML CSS JS</title>
+</head>
+<body>
+  
+<iframe id="myiFrame" width="100%" height="100%" src="http://oogaboogawooga.clickteam.com/"></iframe>
+
+<script>
+window.onload = function() {
+   let myiFrame = document.getElementById("myiFrame");
+   let doc = myiFrame.contentDocument;
+   doc.body.innerHTML = doc.body.innerHTML + '<style>/******* Put your styles here *******</style>';
+}
+</script>
+
+</body>
+</html>
